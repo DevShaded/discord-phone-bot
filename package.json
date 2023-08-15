@@ -1,0 +1,17 @@
+{
+  "name": "discord-phone-bot",
+  "version": "1.0.0",
+  "description": "Phone code that needs to change every day at a given time in a Discord message",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2"
+  }
+}
